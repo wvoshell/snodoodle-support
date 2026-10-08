@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Snodoodle Support</title>
+<meta name="description" content="Help and support for Snodoodle, the snowflake maker for iPhone and iPad.">
+<style>
+  :root {
+    --bg: #eaf5ff;
+    --card: #ffffff;
+    --text: #17324d;
+    --muted: #4f6b85;
+    --accent: #1f7ae0;
+    --accent-soft: #dcecff;
+    --border: #cfe3f7;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0d1b2a;
+      --card: #14273b;
+      --text: #e8f1fb;
+      --muted: #9db6cf;
+      --accent: #6db3ff;
+      --accent-soft: #1b3552;
+      --border: #25425f;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px 48px; }
+  header { text-align: center; padding: 48px 0 24px; }
+  header .flake { font-size: 56px; line-height: 1; color: var(--accent); }
+  h1 { margin: 8px 0 4px; font-size: 2.2rem; }
+  header p { margin: 0; color: var(--muted); }
+  nav { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 20px 0 8px; }
+  nav a {
+    padding: 6px 14px;
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  nav a:hover, nav a:focus-visible { outline: 2px solid var(--accent); }
+  section {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 4px 24px 20px;
+    margin-top: 20px;
+  }
+  h2 { font-size: 1.35rem; margin: 20px 0 8px; }
+  h3 { font-size: 1.05rem; margin: 18px 0 4px; }
+  p, ul, ol { margin: 8px 0; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  details { border-top: 1px solid var(--border); padding: 10px 0; }
+  details:first-of-type { border-top: 0; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p { margin-top: 6px; color: var(--muted); }
+  .contact { text-align: center; }
+  .contact a.button {
+    display: inline-block;
+    margin-top: 6px;
+    padding: 10px 22px;
+    background: var(--accent);
+    color: #fff;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  footer { text-align: center; color: var(--muted); font-size: 0.9rem; margin-top: 28px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="flake" aria-hidden="true">&#10052;</div>
+    <h1>Snodoodle Support</h1>
+    <p>Draw a snowflake!</p>
+    <p>Watch it fall!</p>
+    <p>Print it and cut it!</p>
+    <nav aria-label="On this page">
+      <a href="#getting-started">Getting started</a>
+      <a href="#paper">Paper snowflakes</a>
+      <a href="#faq">Questions</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Snodoodle</h2>
+    <p>
+      Snodoodle is a snowflake maker for iPhone and iPad. Use the snowflake editor to
+      make a perfectly symmetrical snowflake. Save your snowflakes, print them to cut out of paper, and watch them fall in a winter scene.
+    </p>
+    <p>Snodoodle works on iPhone and iPad with iOS or iPadOS 18 or later.</p>
+  </section>
+
+  <section id="getting-started">
+    <h2>Getting started</h2>
+
+    <h3>Edit: draw a snowflake</h3>
+    <ul>
+      <li>Tap inside the editing triangle to add points. Snodoodle joins them with lines and repeats them around the snowflake</li>
+      <li>Touch and drag a point to move it</li>
+      <li>Tap the snowflake preview to turn fill on or off</li>
+      <li>Use the buttons at the top to undo, save, or clear the drawing, and to change the number of sides (4, 6, or 8) with the <strong>#</strong> menu</li>
+    </ul>
+
+    <h3>Library: your saved snowflakes</h3>
+    <ul>
+      <li>Tap a snowflake to open it.</li>
+      <li>Change its color, turn fill on or off, and show or hide the fold guides</li>
+      <li>Share it, print it, save it to your Photos, edit it, or delete it</li>
+    </ul>
+
+    <h3>Snow: watch them fall</h3>
+    <ul>
+      <li>Your saved snowflakes drift down in a winter scene</li>
+      <li>Swipe left or right to change scenes</li>
+      <li>Tap the screen to show the controls: colored snowflakes, how much snow, wind sound, and music. They hide again after a few seconds</li>
+      <li>The Snow tab is the only screen that turns to landscape on iPhone</li>
+    </ul>
+
+    <h3>Help</h3>
+    <p>The Help tab inside the app shows a short, illustrated tour of these steps</p>
+  </section>
+
+  <section id="paper">
+    <h2>Make a paper snowflake</h2>
+    <ol>
+      <li>Open your snowflake in the Library and tap the <strong>Print</strong> button. It prints as thin gray lines with dashed fold guides, so it's easy to cut and uses little ink.</li>
+      <li>Fold the paper along the dashed lines, then cut along the solid lines.</li>
+      <li>Unfold carefully to reveal your snowflake.</li>
+    </ol>
+    <p>Tip: Print on thin paper, since it's much easier to fold and cut than thick paper.</p>
+  </section>
+
+  <section id="faq">
+    <h2>Questions</h2>
+
+    <details>
+      <summary>I can't hear any sounds or music.</summary>
+      <p>
+        Snodoodle follows your iPhone's silent switch, so turn off silent mode and turn up the volume.
+        In the Snow scene, tap the screen and check that <strong>Wind sound</strong> and <strong>Music</strong> are
+        switched on. They start off each time you open the app.
+      </p>
+    </details>
+
+    <details>
+      <summary>"Save to Photos" doesn't work.</summary>
+      <p>
+        Snodoodle only needs permission to add pictures to your Photos. Open Settings, then Snodoodle,
+        then Photos, and choose a setting that allows adding photos. Then try again.
+      </p>
+    </details>
+
+    <details>
+      <summary>Printing isn't available.</summary>
+      <p>
+        Printing uses AirPrint, so you need an AirPrint printer on the same Wi-Fi network. You can also
+        pinch open the page preview in the print window and use the share button to save it as a PDF.
+      </p>
+    </details>
+
+    <details>
+      <summary>Where are my snowflakes saved? Do they sync between devices?</summary>
+      <p>
+        Snowflakes are saved on the device you drew them on, and they don't sync to other devices.
+        They are part of your normal device backup. If you delete Snodoodle, its saved snowflakes are
+        deleted with it. Use Save to Photos or Share on any snowflake you want to keep for good.
+      </p>
+    </details>
+
+    <details>
+      <summary>I edited a snowflake from the Library, but it made a new one.</summary>
+      <p>
+        Choosing <strong>Edit</strong> opens a copy in the editor. The first time you save, it's added to the
+        Library as a new snowflake, and the original stays as it was. Delete the one you don't want
+        from the Library.
+      </p>
+    </details>
+
+    <details>
+      <summary>The screen won't turn sideways.</summary>
+      <p>
+        On iPhone, only the Snow tab turns to landscape. The other tabs stay upright. On iPad, the
+        Edit, Library and Help screens stay in a portrait-shaped column when the iPad is turned sideways.
+      </p>
+    </details>
+
+    <details>
+      <summary>Something looks wrong or the app closed unexpectedly.</summary>
+      <p>
+        Close Snodoodle and open it again, and check that you have the latest version from the App Store.
+        If it keeps happening, please email me. Tell me what device and iOS version you have and what
+        you were doing, and I'll look into it.
+      </p>
+    </details>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy</h2>
+    <p>
+      Snodoodle has no accounts, no ads, and no tracking, and it doesn't collect any information about you.
+      Your snowflakes stay on your device. The only permission the app asks for is to add pictures to your Photos,
+      and only when you choose Save to Photos.
+    </p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Questions, bugs, or ideas? I'd love to hear from you.</p>
+    <a class="button" href="mailto:studiopandamarmot@gmail.com?subject=Snodoodle%20support">studiopandamarmot@gmail.com</a>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Studio Pandamarmot</p>
+  </footer>
+
+</div>
+</body>
+</html>
